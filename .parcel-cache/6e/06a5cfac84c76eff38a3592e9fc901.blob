@@ -1,0 +1,20 @@
+*{box-sizing:border-box;}
+*:before,*after{box-sizing:border-box;}
+*{maigin:0;padding:0;}
+ul,ol{list-style:none;}
+
+.globalHeader{
+
+}
+.globalHeader > input{ }
+.globalHeader > button{ }
+.globalMain{
+
+}
+.siteList{
+
+}
+.siteList > li{}
+.siteList .site > .logo{}
+.siteList .site > .link{}
+.siteList .addButton{ }

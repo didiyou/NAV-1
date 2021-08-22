@@ -1,0 +1,17 @@
+*{box-sizing}
+
+.globalHeader{
+
+}
+.globalHeader > input{ }
+.globalHeader > button{ }
+.globalMain{
+
+}
+.siteList{
+
+}
+.siteList > li{}
+.siteList .site > .logo{}
+.siteList .site > .link{}
+.siteList .addButton{ }

@@ -1,0 +1,4 @@
+$('.addButton').on('click',()=>{
+    const url = window.prompt("请添加网址：")
+    if(url.indexOf)
+})

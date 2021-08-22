@@ -1,0 +1,39 @@
+const $siteList = $('.siteList')
+const $lastli = $siteList.find('li.last')
+const hashMap = [{logo:'images/哔哩哔哩.png',logoType:'text',url:'bilibili.com'},
+{logo:'images/apple.png',logoType:'image',url:'apple.com.cn'},
+{logo:'images/baidu.png',logoType:'images',url:"baidu.com"}
+]
+
+const render =()=>{
+    $siteList.find('li:not(.last)').remove()
+    hashMap.forEach(node=>{
+        const $li = $(`<li>
+        <a href="${node.url}">
+        <div class='site'>
+            <div class="log">
+                ${node.logo[0]}
+            </div>
+            <div class="link">${node.url}</div>
+        </div>
+        </a>
+    </li>`).insertBefore($lastli)
+    })    
+    }   
+render()
+
+$('.addButton').on('click',()=>{
+    let url = window.prompt("请添加网址：")
+    if(url.indexOf('http')!==0){
+        url = 'https://'+ url
+    }
+    hashMap.push({
+        logo:url[0],
+        logoType:'text',
+        url:url})
+        render()
+    })    
+    window.onbeforeunload = ()=>{
+        
+    }
+      

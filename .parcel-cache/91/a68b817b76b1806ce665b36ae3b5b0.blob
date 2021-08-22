@@ -1,0 +1,38 @@
+const hashMap = [{logo:'images/哔哩哔哩.png',logoType:'text',url:'https://www.bilibili.com/'},
+{logo:'images/apple.png',logoType:'image',url:'https://www.apple.com.cn/?afid=p238%7CN2nnhxYV_mtid_18707vxu38484&cid=aos-cn-kwba-brand-bz'},
+{logo:'images/baidu.png',logoType:'images',url:"https://www.baidu.com/"}
+]
+hashMap.forEach(node=>{
+    const $li = $(`<li>
+    <a href="https://www.baidu.com/">
+    <div class='site'>
+        <div class="log">
+            <img src="./images/baidu.png" alt="">
+        </div>
+        <div class="link">baidu.com</div>
+    </div>
+    </a>
+</li>`)
+})
+
+
+$('.addButton').on('click',()=>{
+    let url = window.prompt("请添加网址：")
+    if(url.indexOf('http')!==0){
+        url = 'https://'+ url
+    }
+    const $siteList = $('.siteList')
+    const $lastli = $siteList.find('li.last')
+    
+    const $li = $(`<li>
+    <a href="${url}">
+    <div class='site'>
+        <div class="log">
+           ${url[0]}
+        </div>
+        <div class="link">${url}</div>
+    </div>
+    </a>
+    </li>`).insertBefore($lastli)
+    
+})

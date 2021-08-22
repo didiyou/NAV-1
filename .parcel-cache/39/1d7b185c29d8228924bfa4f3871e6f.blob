@@ -1,0 +1,68 @@
+/* css reset */
+*{box-sizing:border-box;}
+*:before,*after{box-sizing:border-box;}
+*{maigin:0;padding:0;}
+ul,ol{list-style:none;}
+
+/* style */
+body{border:1px solid red;
+background:#eee;
+}
+.globalHeader{
+    border:1px solid red;
+    margin:20px;
+    display:flex;
+    justify-content:space-between;
+}
+.globalHeader > input{ 
+    width:100%;
+    margin-right:10px;
+    height:40px;
+    border:1px solid #ddd;
+    padding:0 10px;
+    border-radius:4px;
+}
+.globalHeader > button{ 
+    white-space:nowrap;
+    padding:0 28px;
+    border:none;
+    border-radius:4px;
+    background: #100E76;
+    color:white;
+    font-size: 16px;
+}
+.globalMain{
+
+}
+.siteList{
+    display:flex;
+    flex-wrap:wrap;
+}
+.siteList > li{
+    border:1px solid black;
+    
+}
+.siteList .site{
+    border:1px solid red;
+    width:160px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background:white;
+}
+
+.siteList .site > .logo{
+    border:1px solid black;
+    width:64px;
+    height:64px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 64px;
+}
+.siteList .site > .link{
+    font-size: 14px;
+    margin-top:4px;
+}
+.siteList .addButton{ }

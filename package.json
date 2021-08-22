@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --public-url ./"
+  },
+  "name": "nav",
+  "version": "1.0.0",
+  
+  "repository": "git@github.com:didiyou/NAV-1.git",
+  "author": "Dylan <1422554376@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6"
+  }
+}

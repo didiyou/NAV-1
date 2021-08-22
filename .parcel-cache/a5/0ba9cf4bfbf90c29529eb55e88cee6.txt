@@ -1,0 +1,10 @@
+9
+37C:\Users\Dylan\Desktop\nav\src\images132739505238095238 1
+39C:\Users\Dylan\Desktop\nav\package.json132740882149142445 0
+40C:\Users\Dylan\Desktop\nav\src\style.css132740833630906880 0
+30C:\Users\Dylan\Desktop\nav\src132739502275532391 1
+47C:\Users\Dylan\Desktop\nav\src\images\apple.png132739503189476622 0
+41C:\Users\Dylan\Desktop\nav\src\index.html132740753993885900 0
+38C:\Users\Dylan\Desktop\nav\src\main.js132740884967566659 0
+47C:\Users\Dylan\Desktop\nav\src\images\baidu.png132739503394824050 0
+50C:\Users\Dylan\Desktop\nav\src\images\ﬂŸ¡®ﬂŸ¡®.png132739505099259658 0
