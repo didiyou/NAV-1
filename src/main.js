@@ -17,7 +17,7 @@ const render =()=>{
     hashMap.forEach((node,index)=>{
         const $li = $(`<li>
         <div class='site'>
-            <div class="log">
+            <div class="logo">
                 ${node.logo}
             </div>
             <div class="link">${simplifyUrl(node.url)}</div>
