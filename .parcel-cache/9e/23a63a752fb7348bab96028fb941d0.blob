@@ -1,2 +1,0 @@
-console.log("我的main.js文件")
-// $('.addButton').on('click',()=>{window.prompt("请添加网址：")})

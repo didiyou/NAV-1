@@ -1,1 +1,0 @@
-$('.addButton').on('click',()=>{window.prompt("请添加网址：")})
