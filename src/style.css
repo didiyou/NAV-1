@@ -108,8 +108,12 @@ background:#eee;
     display:block;
 }
 
-.siteList .site > .log{
-    
+.siteList .site:hover > .logo{
+    font-size: 70px;
+    color:blueviolet;
+}
+
+.siteList .site > .logo{
     width:64px;
     height:64px;
     display:flex;
